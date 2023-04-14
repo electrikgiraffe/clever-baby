@@ -1,0 +1,18 @@
+.main-header {
+    display: flex;
+    justify-content: center;
+}
+
+.main-header__block-wrap {
+    display: flex;
+    padding: 40px 0;
+    min-width: 1170px;
+}
+
+.main-header__toggle {
+    display: none;
+}
+
+.main-header__logo {
+    margin-right: 57px;
+}

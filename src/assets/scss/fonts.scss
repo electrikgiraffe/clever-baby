@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-style: normal;
+    src: url("../fonts/Rubik-Medium.woff2") format("woff2"),
+         url("../fonts/Rubik-Medium.woff") format("woff");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Montserrat-Medium.woff2") format("woff2"),
+         url("../fonts/Montserrat-Medium.woff") format("woff");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+         url("../fonts/Montserrat-Regular.woff") format("woff");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Arial");
+    font-display: swap;
+  }
+
+  

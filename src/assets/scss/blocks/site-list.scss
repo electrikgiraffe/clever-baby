@@ -1,0 +1,11 @@
+.site-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.site-list__item {
+    padding-right: 20px;
+}
