@@ -1,0 +1,124 @@
+.advantages {
+    padding: 0px 198px 0px 198px;
+}
+
+.advantages__list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.advantages__list::before {
+    content: "";
+    background-image: url("/assets/images/advantages-photo.jpg");
+    background-repeat: no-repeat;
+    display: block;
+    width: 332px;
+    height: 381px;
+    position: absolute;
+    top: 15px;
+    left: 300px;
+
+}
+
+.advantages__item {
+    position: relative;
+    margin-bottom: 129px;
+}
+
+
+.advantages__item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;;
+}
+
+.advantages__item--first {
+    max-width: 322px;
+    padding-top: 45px;
+    padding-right: 160px;
+}
+
+.advantages__item--first::before {
+    content: "";
+    background-image: url("/assets/images/arrow-1.svg");
+    background-repeat: no-repeat;
+    width: 182px;
+    height: 61px;
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 200px;
+
+}
+
+.advantages__item--second {
+    max-width: 249px;
+    padding-top: 0px;
+    padding-bottom: 45px;
+    padding-left: 197px;
+    padding-right: 35px;
+}
+
+.advantages__item--second::before {
+    content: "";
+    background-image: url("/assets/images/arrow-2.svg");
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 105px;
+    display: block;
+    position: absolute;
+    top: 140px;
+    left: 130px;
+}
+
+
+.advantages__item--third {
+    max-width: 304px;
+    padding-top: 25px;
+    padding-right: 160px;
+}
+
+.advantages__item--third::before {
+    content: "";
+    background-image: url("/assets/images/arrow-3.svg");
+    background-repeat: no-repeat;
+    width: 115px;
+    height: 126px;
+    display: block;
+    position: absolute;
+    top: -100px;
+    left: 185px;
+}
+    
+
+.advantages__item--fourth {
+    max-width: 244px;
+    padding-top: 0px;
+    padding-left: 197px;
+    padding-right: 35px;
+    margin-top: -30px;
+    padding-bottom: 60px;
+}
+
+.advantages__item--fourth::before {
+    content: "";
+    background-image: url("/assets/images/arrow-4.svg");
+    background-repeat: no-repeat;
+    width: 143px;
+    height: 56px;
+    display: block;
+    position: absolute;
+    top: 150px;
+    right: 230px;
+}
+    
+
+
+
+
+

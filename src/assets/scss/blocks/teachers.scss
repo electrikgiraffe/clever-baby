@@ -1,0 +1,66 @@
+.teachers {
+    padding: 130px 198px;
+    position: relative;
+}
+
+.teachers::before {
+    content: "";
+    background-image: url("/assets/images/house.svg");
+    background-repeat: no-repeat;
+    display: block;
+    width: 58px;
+    height: 97px;
+    position: absolute;
+    left: 1200px;
+}
+
+.teachers::after {
+    content: "";
+    background-image: url("/assets/images/pencil.svg");
+    background-repeat: no-repeat;
+    display: block;
+    width: 44px;
+    height: 132px;
+    position: absolute;
+    bottom: 180px;
+    left: 50px;
+}
+
+.teachers__header {
+    display: flex;
+}
+
+.teachers__title {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    margin-top: 0;
+    margin-bottom: 90px;
+}
+
+.teachers__subtitle {
+    max-width: 350px;
+    margin-left: auto;
+}
+
+.teachers__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.teachers__photo {
+    object-fit: contain;
+}
+
+.teachers__name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.teachers__country {
+    text-align: center;
+    color: $dark-grey;
+}

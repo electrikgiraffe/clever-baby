@@ -1,0 +1,57 @@
+.invitation {
+    padding: 100px 198px;
+    background-image: url("/assets/images/invitation-back.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.invitation::before {
+    content: "";
+    background-image: url("/assets/images/rainbow.svg");
+    background-repeat: no-repeat;
+    width: 155px;
+    height: 126px;
+    display: block;
+    position: absolute;
+    
+}
+
+
+.invitation::after {
+    content: "";
+    background-image: url("/assets/images/boy.svg");
+    background-repeat: no-repeat;
+    width: 118px;
+    height: 133px;
+    display: block;
+    position: absolute;
+    top: 160px;
+    right: 170px;
+}
+
+.invitation__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.invitation__title {
+    font-family: "Rubik", sans-serif;
+    color: $white;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    margin-top: 0;
+    margin-bottom: 35px;
+    max-width: 490px;
+    text-align: center;
+}
+
+.invitation__description {
+    color: $white;
+    max-width: 360px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+}

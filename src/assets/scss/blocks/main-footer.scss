@@ -1,0 +1,20 @@
+.main-footer__wrap {
+    padding-top: 56px;
+    padding-bottom: 36px;
+    padding-right: 70px;
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer__copyright {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.main-footer__policy-link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    color: $dark-blue;
+}

@@ -1,3 +1,98 @@
 .about-education {
-    padding: 0px 198px 0px 198px;
+    padding: 100px 198px 130px 198px;
+    position: relative;
+}
+
+.about-education__wrap {
+    display: flex;
+}
+
+.about-education__title {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.about-education__slogan {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.about-education__first-paragraph{
+    max-width: 414px;
+    margin-right: 86px;
+}
+
+.about-education__second-paragraph {
+    max-width: 414px;
+    margin-right: 86px;
+}
+
+.about-education__video-wrap {
+    position: relative;
+}
+
+.about-education__video-description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.about-education__video {
+    display: block;
+    border-radius: 12px;
+    width: 431px;
+    height: 231px;
+    object-fit: cover;
+    background: transparent;
+}
+
+.about-education__video-button {
+    background-image: url("/assets/images/play-video.svg");
+    display: block;
+    border: none;
+    background-color: transparent;
+    width: 51px;
+    height: 51px;
+    position: absolute;
+    top: 160px;
+    left: 180px;
+    padding: 0;
+}
+
+.about-education__video-button:hover,
+.about-education__video-button:focus,
+.about-education__video-button:active {
+    opacity: 0.5;
+}
+
+.about-education::before {
+    content: "";
+    background-image: url("/assets/images/girl.svg");
+    background-repeat: no-repeat;
+    display: block;
+    width: 105px;
+    height: 115px;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+
+.about-education::after {
+    content: "";
+    background-image: url("/assets/images/rocket.svg");
+    background-repeat: no-repeat;
+    display: block;
+    width: 135px;
+    height: 68px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    
 }

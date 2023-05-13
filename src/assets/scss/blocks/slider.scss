@@ -1,0 +1,29 @@
+.slider {
+    position: relative;
+}
+
+.slider__wrapper {
+    overflow: hidden;
+}
+
+.slider__list {
+    display: flex;
+}
+
+.slider__item {
+    margin-right: 30px;
+}
+
+.slider__buttons-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.slider__prev {
+    cursor: pointer;
+}
+
+.slider__next {
+    cursor: pointer;
+    margin-left: 14px;
+}

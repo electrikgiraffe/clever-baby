@@ -1,3 +1,53 @@
 .banner {
-    padding: 136px 750px 160px 198px;
+    position: relative;
+    padding: 136px 770px 160px 198px;
+    background-image: url('/assets/images/banner-desktop.jpg');
+    display: block;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.banner::before {
+    content: "";
+    background-image: url('/assets/images/car.svg');
+    display: block;
+    width: 106px;
+    height: 84px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+
+.banner::after{
+    content: "";
+    background-image: url("/assets/images/cloud.svg");
+    display: block;
+    width: 91px;
+    height: 62px;
+    position: absolute;
+    top: 60px;
+    left: 1200px;
+}
+
+.banner__title {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 58px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.banner__subtitle {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+}
+
+.banner__description {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 45px;
 }

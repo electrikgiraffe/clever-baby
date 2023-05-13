@@ -1,15 +1,32 @@
+
 .page__body {
     background-color: $white;
     color: $dark-blue;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", "Arial", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 23px;
-    min-width: 1366px;
-    margin: 0 auto;
+    min-width: 320px;
+    margin: 0;
+    position: relative;
+    overflow-x: hidden;
   }
   
   .page__container {
     margin: 0 auto;
     width: 1366px;
   }
+
+  @media (max-width: $tablet-width) {
+    .page__container {
+      width: 768px;
+    }
+  }
+  
+  @media (max-width: $mobile-width) {
+    .page__container {
+      width: 320px;
+    }
+  }
+  
+   

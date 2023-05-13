@@ -1,0 +1,15 @@
+.map__wrapper {
+    background-image: url('../images/map-desktop.jpg');
+    display: block;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 1366px;
+    height: 611px;
+}
+
+.map iframe {
+    border: none;
+    display: block;
+    width: 100%;
+    height: 611px;
+  }
