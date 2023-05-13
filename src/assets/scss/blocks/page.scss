@@ -16,6 +16,8 @@
     width: 1366px;
   }
 
+  *{ border: 1px solid red; box-sizing: border-box; }
+
   @media (max-width: $tablet-width) {
     .page__container {
       width: 768px;
@@ -27,5 +29,7 @@
       width: 320px;
     }
   }
+
+
   
    
